@@ -46,6 +46,10 @@ Install the required packages:
 python -m pip install pymongo faker
 ```
 
+## Replace the connection string placeholders
+
+In each file, replace `<USERNAME>`, `<PASSWORD>`, and `<HOST>` with your Atlas credentials and cluster hostname. You can find your connection string in the Atlas UI under **Database > Connect > Drivers**.
+
 ## Run the files
 
 Each file demonstrates one masking technique. Run them individually with the following commands:
